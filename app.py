@@ -39,7 +39,7 @@ with col1:
 
 with col2:
     income_annum = st.number_input("Annual Income")
-    loan_amount = st.number_input("Loan Amount")
+    loan_amount = st.number_input("Loan Amount",min_value=1000)
     loan_term = st.number_input("Loan Term")
     cibil_score = st.number_input("CIBIL Score")
 
