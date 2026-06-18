@@ -78,4 +78,3 @@ if st.button("Predict Loan Status"):
     else:
         st.error(f"❌ Loan Rejected")
 
-    st.write(f"Confidence: {max(proba)*100:.2f}%")
